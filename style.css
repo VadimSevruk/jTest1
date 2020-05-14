@@ -1,0 +1,271 @@
+.header {
+  max-width: 100%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  border-top: 3px solid #2d1152;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.header .row {
+  max-width: 1260px;
+  margin: auto;
+  padding: 12px 0;
+}
+
+.logo {
+  background-image: url(https://s.yimg.com/rz/p/yahoo_news_en-US_s_f_pw_351X40_news_2x.png);
+  background-position-x: 0;
+  background-size: 702px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 35px;
+}
+
+.search input {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 35px;
+  border-radius: 2px;
+  width: 305px;
+}
+
+.sNews {
+  background: #363f80;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  width: 140px;
+  height: 35px;
+}
+
+.sWeb {
+  background-color: #0179ff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  width: 140px;
+  height: 35px;
+}
+
+.sWeb:hover {
+  background-color: #003abc;
+}
+
+.login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login a {
+  color: #400090;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: none;
+}
+
+.signIn {
+  border: 2px solid #400090;
+  border-radius: 5px;
+  padding: 2px 16px;
+}
+
+.signIn:hover {
+  background-color: #400090;
+  color: #fff;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+}
+
+.mail span {
+  margin-left: 6px;
+}
+
+.main {
+  max-width: 1180px;
+  margin: auto;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.13);
+  margin-top: 85px;
+}
+
+.main .container {
+  padding: 0 40px;
+}
+
+.title {
+  padding: 35px 55px 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+.article p {
+  font-family: Georgia, Times New Roman, serif;
+  font-size: 18px;
+}
+
+.social a {
+  display: block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  border-radius: 50%;
+  border-width: 0px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.tumblr {
+  background-color: rgb(60, 90, 119);
+  border-color: rgb(60, 90, 119);
+}
+
+.tumblr:hover {
+  background-color: rgb(26, 30, 57);
+  border-color: rgb(26, 30, 57);
+}
+
+.facebook {
+  background-color: rgb(71, 97, 166);
+  border-color: rgb(71, 97, 166);
+}
+
+.facebook:hover {
+  background-color: rgb(38, 64, 124);
+  border-color: rgb(38, 64, 124);
+}
+
+.twitter {
+  background-color: rgb(0, 172, 235);
+  border-color: rgb(0, 172, 235);
+}
+
+.twitter:hover {
+  background-color: rgb(40, 131, 201);
+  border-color: rgb(40, 131, 201);
+}
+
+.gmail {
+  background-color: rgb(86, 1, 192);
+  border-color: rgb(86, 1, 192);
+}
+
+.gmail:hover {
+  background-color: rgb(50, 0, 113);
+  border-color: rgb(50, 0, 113);
+}
+
+.video {
+  position: relative;
+  padding: 0 0 56.25% 0;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.aside {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aside h2 {
+  font-size: 16px;
+  color: #26282a;
+}
+
+.post img {
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.post__title {
+  font-size: 13px;
+  color: #020e65;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.author {
+  font-size: 11px;
+  color: #959595;
+}
+
+.readmore {
+  margin-top: -70px;
+}
+
+.readmore::before {
+  content: "";
+  height: 68px;
+  width: 90%;
+  position: relative;
+  display: block;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(hsla(0, 0%, 100%, 0)),
+    to(#fff)
+  );
+  background: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0), #fff);
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0, #fff);
+}
+
+.readmore button {
+  font-family: inherit;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  line-height: 1;
+  text-decoration: none;
+  color: #188fff;
+  border: 1px solid #188fff;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.readmore button:hover {
+  color: #003abc;
+  border-color: #003abc;
+  cursor: poiner;
+}
+
+@media only screen and (max-width: 450px) {
+  .aside,
+  .social {
+    display: none;
+  }
+
+  .title {
+      font-size: 19px;
+      padding: 35px 40px 0;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .search,
+  .login {
+    display: none;
+  }
+}
